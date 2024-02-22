@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:background="#FFD600"
+        tools:context=".ShowOrderActivity">
+
+    <TextView
+            android:text="@string/your_orders"
+            android:layout_width="match_parent"
+            android:textSize="40sp"
+            android:textColor="#D50000"
+            android:background="#00BFA5"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="50sp"
+            android:id="@+id/textView3"/>
+    <TextView
+            android:text="hello"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:id="@+id/showOrders"/>
+
+</LinearLayout>
