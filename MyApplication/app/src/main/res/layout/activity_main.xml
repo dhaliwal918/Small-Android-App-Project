@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6sp"
+        android:background="@color/white"
+        android:id="@+id/LinearLayout"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <Button
+            android:backgroundTint="#00288E"
+            android:text="@string/dark_mode"
+            android:fontFamily="monospace"
+            android:textSize="30sp"
+            android:padding="20sp"
+            android:layout_margin="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDark"/>
+
+    <Button
+            android:text="@string/light_mode"
+            android:backgroundTint="#00288E"
+
+            android:fontFamily="sans-serif"
+            android:textSize="30sp"
+            android:padding="20sp"
+            android:layout_margin="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLight"/>
+
+    <Button
+            android:text="@string/read_mode"
+            android:fontFamily="monospace"
+            android:textSize="30sp"
+            android:padding="20sp"
+            android:layout_margin="10sp"
+            android:backgroundTint="#00288E"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRead"/>
+
+
+</LinearLayout>

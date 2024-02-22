@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <ImageView
+            android:layout_width="142sp"
+            android:layout_height="140sp"
+            android:src="@drawable/sukhmeet"
+            android:id="@+id/imageView"
+            android:contentDescription="@string/todo"
+            android:layout_gravity="center"
+            android:layout_margin="10sp"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="200sp">
+
+        <TextView
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lorem_ipsum_dolor_sit_amet_consectetur_adipisicing_elit_veritatis_aperiam_fugiat_nesciunt_eius_illum_est_dolores_dicta_voluptate_corporis_cupiditate_atque_quidem_incidunt_quod_et_labore_officia_explicabo_tempora_laudantium_sed_mollitia_consectetur_harum_molestiae_iure_expedita_magnam_sapiente_excepturi_nulla_aliquam_harum_consequatur_maxime_quasi_eveniet_neque_eligendi_officia_explicabo_dicta_commodi_in_facere_magni_deserunt_ipsam_fuga_consectetur_aut_obcaecati_totam_cupiditate_tempora_accusantium_asperiores_aliquam_temporibus_tempore_nisi_quisquam_hic_voluptatibus_assumenda_optio_beatae_dignissimos_reprehenderit_magni_a_exercitationem_ea_voluptate_porro_quasi_sint_omnis_nobis_fugit_quod_placeat_excepturi_reprehenderit_ducimus_quibusdam_consectetur_tenetur_eos_eum_deleniti_recusandae_ad_culpa_facere_mollitia_hic_voluptas_odit_cumque_voluptatibus_sunt_provident_natus_ipsum_sit_sequi_aut_nesciunt_similique_suscipit_dolorem_dolorum_dignissimos_ipsam_fugit_perspiciatis_expedita_ab_a_harum_cumque_dolor_sunt_pariatur_obcaecati_eius_porro_enim_soluta_ea_quos_illo_sapiente_itaque_atque_minima_neque_consequatur_libero_at_provident_error_praesentium_quisquam_reiciendis_neque_ipsa_voluptates_sed_veniam_omnis_perferendis_rerum_dicta_beatae_quia_unde_laborum_animi_aut_quod_ducimus_natus_inventore_doloribus_doloremque_non_accusantium_ratione_quis_necessitatibus_optio_nisi_dignissimos_iure_vitae_velit_vel_consequatur_consequuntur_laboriosam_quod_doloremque_sunt_assumenda_magnam_eius_voluptatum_voluptate_commodi_sed_hic_nobis_ratione_iusto_rerum_maiores_porro_modi_adipisci_non_hic_culpa_velit_minus_eaque_libero_voluptatum_nemo_eligendi_inventore_non_nobis_perferendis_voluptas_porro_doloremque_neque_tempora_facere_labore_cum_unde_impedit_iste_illo_laboriosam_quasi_dolorem_voluptatem_harum_blanditiis_debitis_aspernatur_hic_earum_placeat_asperiores_consectetur_velit_quidem_corrupti_accusantium_similique_repellat_excepturi_enim_consequatur_dolore_pariatur_sed_fugit_autem_maiores_sapiente"
+
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+    </ScrollView>
+
+    <ImageView
+            android:layout_width="142sp"
+            android:layout_height="140sp"
+            android:src="@drawable/sukhmeet"
+            android:id="@+id/imageView2"
+            android:contentDescription="@string/todo"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+            android:layout_margin="40sp"
+            android:layout_width="300sp"
+            android:id="@+id/cardWebpage"
+            app:cardCornerRadius="60sp"
+            android:backgroundTint="#FFB13D"
+            android:layout_gravity="center"
+            android:layout_height="200sp">
+
+        <TextView
+                android:text="@string/open_webpage"
+                android:layout_gravity="center"
+                android:textStyle="italic"
+                android:textSize="35sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+            android:layout_margin="40sp"
+            android:layout_width="300sp"
+            app:cardCornerRadius="60sp"
+            android:backgroundTint="#FFB13D"
+            android:layout_gravity="center"
+            android:id="@id/cardCamera"
+            android:layout_height="200sp">
+
+        <TextView
+                android:text="Open Camera"
+                android:layout_gravity="center"
+                android:textStyle="italic"
+                android:textSize="35sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Camera"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
