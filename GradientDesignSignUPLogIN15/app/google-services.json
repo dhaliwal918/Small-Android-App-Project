@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "698389614877",
+    "project_id": "dhaliwal-e0326",
+    "storage_bucket": "dhaliwal-e0326.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698389614877:android:b412d5491ca526b8a051f4",
+        "android_client_info": {
+          "package_name": "com.example.gradientdesign_signup_login_15"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxzgmd2rp-QO8CZGUBDh7-MfuVcAze7mY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

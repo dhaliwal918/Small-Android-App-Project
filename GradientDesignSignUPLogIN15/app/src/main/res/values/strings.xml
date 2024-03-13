@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GradientDesign-SignUP-LogIN-15</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_g_mail_id">Enter G-mail id</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="log_in">Log in</string>
+    <string name="already_have_signup">Already have signUp?</string>
+    <string name="create_new_account">Create new account</string>
+</resources>
