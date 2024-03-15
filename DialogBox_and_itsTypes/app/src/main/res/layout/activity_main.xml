@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:layout_margin="40sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/outline"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="280sp"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="10sp"
+            android:text="@string/dialog_boxes_in_detail" />
+
+        <Button
+            android:id="@+id/btnType1"
+            android:layout_width="275sp"
+            android:textSize="20sp"
+            android:backgroundTint="#65CAF8"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:text="@string/type_1" />
+
+        <Button
+            android:id="@+id/btnType2"
+            android:layout_width="275sp"
+            android:textSize="20sp"
+            android:backgroundTint="#65CAF8"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:text="@string/type_2" />
+
+        <Button
+            android:id="@+id/btnType3"
+            android:layout_width="275sp"
+            android:textSize="20sp"
+            android:backgroundTint="#65CAF8"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:text="@string/type_3" />
+
+        <TextView
+            android:id="@+id/txtDisplay"
+            android:layout_width="275sp"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/white_blackoutline"
+            android:layout_marginBottom="10sp"
+            android:text="" />
+
+
+    </LinearLayout>
+</LinearLayout>
