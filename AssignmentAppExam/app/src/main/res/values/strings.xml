@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AssignmentApp(Exam)</string>
+    <string name="examease">ExamEase</string>
+    <string name="question_1">Question 1</string>
+    <string name="exam">Exam</string>
+    <string name="question_2">Question 2</string>
+    <string name="question_3">Question 3</string>
+    <string name="question_4">Question 4</string>
+    <string name="question_5">Question 5</string>
+    <string name="question_6">Question 6</string>
+    <string name="question_7">Question 7</string>
+    <string name="question_8">Question 8</string>
+    <string name="question_9">Question 9</string>
+    <string name="question_10">Question 10</string>
+    <string name="question_11">Question 11</string>
+    <string name="result">Result</string>
+</resources>
