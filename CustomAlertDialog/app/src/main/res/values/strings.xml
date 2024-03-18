@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CustomAlertDialog</string>
+    <string name="congratulations_for_showing_up_today">CONGRATULATIONS FOR SHOWING UP TODAY!</string>
+    <string name="how_is_the_android_dev_journey_is_going_on">How is the android dev journey is going on?</string>
+    <string name="send_feedback">SEND FEEDBACK</string>
+    <string name="to_good">TO GOOD</string>
+    <string name="custom_dialog_boxes">Custom Dialog Boxes</string>
+    <string name="click_me">Click me!</string>
+</resources>
